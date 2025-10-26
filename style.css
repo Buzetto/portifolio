@@ -1,0 +1,66 @@
+:root {
+    --background-page: #000000;
+    --color-text: #F2F2F2;
+    --color-logo: #9ebbfc;
+}
+
+/* ESTILOS GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: var(--background-page);
+    height: 100vh;
+}
+
+.interface {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    padding: 2.5rem 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #7D7D7D;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+header a:hover {
+    color: var(--color-logo);
+    transform: scale(1.15);
+}
+
+.menu-desktop ul li {
+    display: inline;
+    padding: 0 2.5rem;
+}
+
+.btn-contato button {
+    padding: .625rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: var(--color-logo);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 10px var(--color-logo);
+}
