@@ -71,7 +71,7 @@ header a:hover {
     padding: 0 2.5rem;
 }
 
-/* SECTION ABOUT */
+/* ABOUT SECTION */
 .about {
     padding: 2.5rem 4%;
 }
@@ -99,9 +99,7 @@ header a:hover {
 }
 
 .right-side img {
-    width: 32.2rem;
-    height: 43rem;
-    border-radius: 1.2rem;
+    width: 30rem;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
@@ -114,3 +112,5 @@ header a:hover {
         top: 1.5rem;
     }
 }
+
+/* SKILLS SECTION */
