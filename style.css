@@ -24,6 +24,26 @@ body {
     margin: 0 auto;
 }
 
+.flex {
+    display: flex;
+}
+
+.btn-contact button {
+    padding: .625rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: var(--color-logo);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contact button:hover {
+    box-shadow: 0px 0px 10px var(--color-logo);
+    transform: scale(1.05);
+}
+
 /* HEADER */
 header {
     padding: 2.5rem 4%;
@@ -38,7 +58,7 @@ header > .interface {
 header a {
     color: #7D7D7D;
     display: inline-block;
-    transition: 0.2s;
+    transition: .2s;
 }
 
 header a:hover {
@@ -51,16 +71,46 @@ header a:hover {
     padding: 0 2.5rem;
 }
 
-.btn-contato button {
-    padding: .625rem 2.5rem;
-    font-size: 1.125rem;
-    font-weight: 600;
-    background-color: var(--color-logo);
-    border: none;
-    border-radius: 2rem;
-    cursor: pointer;
+/* SECTION ABOUT */
+.about {
+    padding: 2.5rem 4%;
 }
 
-.btn-contato button:hover {
-    box-shadow: 0px 0px 10px var(--color-logo);
+.about .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 5.5rem;
+}
+
+.left-side h1 {
+    color: var(--color-text);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.left-side h1 span {
+    color: var(--color-logo);
+}
+
+.left-side p {
+    color: var(--color-text);
+    margin: 2.5rem 0;
+}
+
+.right-side img {
+    width: 32.2rem;
+    height: 43rem;
+    border-radius: 1.2rem;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 1.5rem;
+    }
 }
