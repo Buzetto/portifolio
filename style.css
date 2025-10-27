@@ -34,7 +34,7 @@ body {
     font-weight: 600;
     background-color: var(--color-logo);
     border: none;
-    border-radius: 2rem;
+    border-radius: 1rem;
     cursor: pointer;
     transition: .2s;
 }
@@ -71,35 +71,31 @@ header a:hover {
     padding: 0 2.5rem;
 }
 
-/* ABOUT SECTION */
-.about {
+/* start SECTION */
+.start {
     padding: 2.5rem 4%;
 }
 
-.about .flex {
+.start .flex {
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 5.5rem;
 }
 
 .left-side h1 {
     color: var(--color-text);
-    text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 5rem;
     line-height: 3rem;
-}
-
-.left-side h1 span {
-    color: var(--color-logo);
 }
 
 .left-side p {
     color: var(--color-text);
+    font-size: 2rem;
     margin: 2.5rem 0;
 }
 
 .right-side img {
-    width: 30rem;
+    width: 25rem;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
@@ -113,4 +109,4 @@ header a:hover {
     }
 }
 
-/* SKILLS SECTION */
+/* ABOUT SECTION */
