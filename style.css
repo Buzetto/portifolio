@@ -12,6 +12,7 @@
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -82,6 +83,13 @@ header a:hover {
     gap: 5.5rem;
 }
 
+.left-side {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 3rem;
+}
+
 .left-side h1 {
     color: var(--color-text);
     font-size: 5rem;
@@ -91,7 +99,11 @@ header a:hover {
 .left-side p {
     color: var(--color-text);
     font-size: 2rem;
-    margin: 2.5rem 0;
+    border-right: 4px solid;
+    width: 23ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(23), blinking 0.5s infinite step-end alternate;
 }
 
 .right-side img {
@@ -100,6 +112,42 @@ header a:hover {
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
+/* ABOUT SECTION */
+.about .flex {
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5rem;
+}
+
+.about {
+    padding: 10rem 4%;
+    background-color: #121212;
+}
+
+.about-left-side img{
+    width: 35rem;
+    height: 40rem;
+    border-radius: 1rem;
+    transition: .2s;
+}
+
+.about-left-side img:hover {
+    transform: scale(1.03);
+}
+
+.about-right-side h2 {
+    color: var(--color-text);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-right-side p {
+    color: #c1c1c1;
+    font-size: 1.2rem;
+}
+
+/* KEYFRAMES */
+/* Imagem flutuante */
 @keyframes flutuar {
     0% {
         top: 0;
@@ -109,21 +157,15 @@ header a:hover {
     }
 }
 
-/* ABOUT SECTION */
-.about .flex {
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
+/* Dgitação do inicio */
+@keyframes typing {
+    from {
+        width: 0;
+    }
 }
 
-.about {
-    padding: 10rem 4%;
-    background-color: #121212;
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
 }
-
-.about-left-side img{
-    width: 600px;
-    height: 700px;
-    border-radius: 1rem;
-}
-
