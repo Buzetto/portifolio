@@ -107,10 +107,10 @@ header a:hover {
     color: var(--color-text);
     font-size: 2rem;
     border-right: 4px solid;
-    width: 23ch;
+    /* width: 23ch;
     white-space: nowrap;
-    overflow: hidden;
-    animation: typing 2s steps(23), blinking 0.5s infinite step-end alternate;
+    overflow: hidden; */
+    animation: blinking 0.5s infinite step-end alternate;
 }
 
 .right-side img {
@@ -203,11 +203,11 @@ header a:hover {
 }
 
 /* Dgitação do inicio */
-@keyframes typing {
+/* @keyframes typing {
     from {
         width: 0;
     }
-}
+} */
 
 @keyframes blinking {
     50% {
