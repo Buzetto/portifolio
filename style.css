@@ -241,6 +241,61 @@ header a:hover {
     opacity: 1;
 }
 
+/* FORM SECTION */
+
+.form {
+    padding: 5rem 4%;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 31.25rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form input, textarea {
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 1.25rem 1rem;
+    border-radius: 1rem;
+    color: var(--color-text);
+    font-size: 1.125rem;
+}
+
+form textarea {
+    resize: none;
+    height: 12.5rem;
+}
+
+form .button {
+    margin-top: 1.125rem;
+    text-align: center;
+}
+
+form .button input {
+    width: 7.5rem;
+    background-color: var(--color-logo);
+    color: var(--background-page);
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+form .button input:hover {
+    box-shadow: 0px 0px 10px var(--color-logo);
+    transform: scale(1.05);
+}
+
+
 /* KEYFRAMES */
 /* Imagem flutuante */
 @keyframes flutuar {
