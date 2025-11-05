@@ -305,7 +305,7 @@ footer .flex {
 
 .btn-social i {
     font-size: 2rem;
-    color: var(--color-text);
+    color: #7D7D7D;
     margin-left: 1rem;
     transition: .3s;
 }
