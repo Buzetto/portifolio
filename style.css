@@ -79,6 +79,13 @@ header a:hover {
     padding: 0 2.5rem;
 }
 
+.btn-social-nav i {
+    font-size: 2rem;
+    color: #7D7D7D;
+    margin-left: 1rem;
+    transition: .3s;
+}
+
 /* START SECTION */
 .start {
     padding: 2.5rem 4%;
@@ -291,6 +298,7 @@ form .button input:hover {
     box-shadow: 0px 0px 10px var(--color-logo);
     transform: scale(1.05);
 }
+/* FORM SECTION */
 
 /* FOOTER */
 footer {
@@ -335,7 +343,7 @@ footer .flex {
 .line-footer p a {
     color: var(--color-text);
 }
-
+/* FOOTER */
 
 
 /* KEYFRAMES */
@@ -352,5 +360,12 @@ footer .flex {
 @keyframes blinking {
     50% {
         border-color: transparent;
+    }
+}
+
+/* RESPONSIVEL */
+@media screen and (max-width: 1020px) {
+    .menu-desktop, .btn-social-nav {
+        display: none;
     }
 }
