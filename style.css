@@ -136,8 +136,6 @@ header a:hover {
 }
 
 .about-left-side img{
-    width: 35rem;
-    height: 40rem;
     border-radius: 1rem;
     transition: .2s;
 }
@@ -365,9 +363,15 @@ footer .flex {
 
 /* RESPONSIVEL */
 @media screen and (max-width: 1020px) {
+    /* Padrão */
+    .interface {
+        max-width: 100%;
+    }
+
     .flex {
         flex-direction: column;
     }
+    /* Fim do padrão */
 
     /* HEADER */
     .menu-desktop, .btn-social-nav {
@@ -375,9 +379,6 @@ footer .flex {
     }
 
     /* START */
-    .start .flex {
-        gap: 2.5rem;
-    }
 
     .left-side h1 {
         font-size: 2rem;
@@ -397,7 +398,6 @@ footer .flex {
     /* ABOUT */
     .about .flex {
         flex-direction: column-reverse;
-    }
     }
 
     .about-left-side img {
