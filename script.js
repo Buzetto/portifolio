@@ -1,3 +1,4 @@
+// FUNCTION FOR ANIMATE TYPING
 // Espera todo o HTML ser carregado antes de executar o script
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -18,3 +19,20 @@ document.addEventListener('DOMContentLoaded', () => {
     
     typeWriter(p);
 });
+
+// OPEN AND CLOSE MENU MOBILE
+let btnMenu = document.getElementById('btn-open-menu');
+let menu = document.getElementById('menu-mobile');
+let overlay = document.getElementById('overlay-menu-mobile');
+
+btnMenu.addEventListener('click', () => { 
+    menu.classList.add('open-menu');
+})
+
+menu.addEventListener('click', () => { 
+    menu.classList.remove('open-menu');
+})
+
+overlay.addEventListener('click', () => { 
+    menu.classList.remove('open-menu');
+})
