@@ -19,7 +19,8 @@ Você pode acessar a versão ao vivo do projeto no link abaixo:
 
 ## 📸 Visualização do Projeto
 
-**[Imagem do seu portfólio aqui]**
+![print site](https://github.com/user-attachments/assets/ce0762b5-4f63-4116-87bd-adb271502105)
+
 
 *(**Instrução para você:** Tire um print-screen (captura de tela) da sua página principal e adicione a imagem a esta seção. Isso é crucial para que os visitantes vejam seu projeto sem precisar sair do GitHub.)*
 
