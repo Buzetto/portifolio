@@ -52,9 +52,25 @@ body {
     margin-bottom: 1.5rem;
 }
 
+#about, 
+#knowledge, 
+#projects, 
+#contact {
+    scroll-margin-top: 5rem; /* Use um valor um pouco maior que a altura total do seu header (que você estimou em 4rem) */
+}
+
 /* HEADER */
+main {
+    padding-top: 8rem;
+}
+
 header {
-    padding: 2.5rem 4%;
+    padding: .5rem 4%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--background-page);
 }
 
 header > .interface {
