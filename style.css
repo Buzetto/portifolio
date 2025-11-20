@@ -59,6 +59,10 @@ body {
     scroll-margin-top: 5rem; /* Use um valor um pouco maior que a altura total do seu header (que você estimou em 4rem) */
 }
 
+.btn-open-menu {
+    display: none;
+}
+
 /* HEADER */
 main {
     padding-top: 8rem;
@@ -458,6 +462,10 @@ footer .flex {
     /* HEADER */
     .menu-desktop, .btn-social-nav {
         display: none;
+    }
+
+    .btn-open-menu {
+        display: block;
     }
 
     /* START */
