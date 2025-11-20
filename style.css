@@ -106,6 +106,10 @@ header nav.menu-desktop ul li {
     transition: .3s;
 }
 
+.btn-social-nav i:hover {
+    color: var(--color-logo);
+}
+
 /* Menu mobile */
 .btn-open-menu i {
     color: var(--color-logo);
